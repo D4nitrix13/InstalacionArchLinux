@@ -277,7 +277,7 @@ pacman --sync nombre_del_paquete
 **La sintaxis general del comando `nano` para abrir un fichero es:**
 
 ```bash
-nano ruta/al/fichero
+nano path/file
 ```
 
 > *Una vez que el fichero está abierto en Nano, puedes usar las funciones de búsqueda para encontrar las líneas específicas que necesitas. En este caso, estás buscando las líneas que contienen `en_US.UTF-8 UTF-8` y `es_ES.UTF-8 UTF-8`.*
@@ -301,7 +301,7 @@ locale-gen
 **La sintaxis general del comando `echo` es:**
 
 ```bash
-echo "texto_a_imprimir"
+echo "Text To Print"
 ```
 
 - *El operador `>` se utiliza para redirigir la salida del comando `echo` al fichero especificado. En este caso, la cadena `LANG=es_ES.UTF-8` se escribirá en el fichero `/etc/locale.conf`, sobrescribiendo cualquier contenido existente en el fichero.*
@@ -319,7 +319,7 @@ echo "LANG=es_ES.UTF-8" > /etc/locale.conf
 **La sintaxis general del comando `echo` es:**
 
 ```bash
-echo "texto_a_imprimir"
+echo "Text To Print"
 ```
 
 - *El operador `>` se utiliza para redirigir la salida del comando `echo` al fichero especificado. En este caso, la cadena `KEYMAP=es` se escribirá en el fichero `/etc/vconsole.conf`, sobrescribiendo cualquier contenido existente en el fichero.*
@@ -337,7 +337,7 @@ echo "KEYMAP=es" > /etc/vconsole.conf
 **La sintaxis general del comando `echo` es:**
 
 ```bash
-echo "texto_a_imprimir"
+echo "Text To Print"
 ```
 
 - *El operador `>` se utiliza para redirigir la salida del comando `echo` al fichero especificado. En este caso, la cadena "asus" se escribirá en el fichero `/etc/hostname`, sobrescribiendo cualquier contenido existente en el fichero.*
@@ -355,7 +355,7 @@ echo "asus" > /etc/hostname
 **La sintaxis general del comando `nano` para abrir un fichero es:**
 
 ```bash
-nano ruta/al/fichero
+nano path/file
 ```
 
 - *Una vez que el fichero `/etc/hosts` está abierto en Nano, puedes agregar o modificar las entradas según sea necesario. Las entradas en este fichero se utilizan para mapear direcciones IP a nombres de host.*
